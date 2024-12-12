@@ -239,6 +239,8 @@ body {
     font-size: clamp(20px, 4vw , 32px);
 }
 
+/* categories */
+
 .categories {
     display: grid;
     gap: 40px;
@@ -266,7 +268,7 @@ body {
 }
 
 .arrow {
-    width: clamp(35px, 5vw, 40px);
+    width: clamp(25px, 5vw, 40px);
 }
 
 /* popular */
@@ -363,6 +365,10 @@ body {
     border-radius: 30px;
     background-color: #DB0066;
     color: white;
+}
+
+.popular--cards--card--size_button--button:hover {
+    background-color: black;
 }
 
 .slider {
@@ -682,6 +688,49 @@ b {
     margin: 0 auto;
 }
 
+.a_card {
+    color: black;
+    padding: 3px;
+    border-radius: 10px;
+    
+}
+
+.a_card:hover {
+    background-color: white;
+    /* color: #DB0066; */
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.white {
+    color: white;
+}
+
+.pink {
+    color: #DB0066;
+}
+
+.pink:hover {
+    color: black;
+}
+
+.black {
+    color: black;
+
+}
+
+.black:hover {
+    color: #DB0066;
+
+}
+
+.b {
+    font-weight: 600;
+}
 
 
 
